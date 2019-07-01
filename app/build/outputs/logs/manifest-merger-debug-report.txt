@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e2d3572e3c60c4669695d26bfc02699f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d76744f05e7f1c24a298824a7f7fd215/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e4cec1d16c21774826eed609e5886518/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a63d7f5a84bcff0b96533c45e1eea5ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/6a1e7c481b43e0bc44692c05a794b33a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/04c577bb9fdd11eaa5aa9825857364ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a815015252be2086c7cd9849aaaa62a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e9deb9aa3a85101d7b1eb16350da671b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/7bf48a7fa72f99d5d2ed771f060be302/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a1dcc6b28284ff4b016ecf00454895f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/acdd7a8d56aa67e12062abd9f217eb18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/21f7f15310574cfc0ef0832d060cdceb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/8ace1a0353a79bd53c83a0df4837269c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/fffd8a3b9de3af7f008b52430a3acdbd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/aaeff9647ab26f967de16802a506109d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/06fa0baad0bc42546e7346bdb1589e01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/2cb398cc780efac13d9eb8e758a4abbd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/43a5f758ac0168cd3cb1c5a4c0bca740/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/966f3c3b9593fda3aa63a5e59b040c79/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5a30fb42b72ac3fa2e09cc068082f4dd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/115999f549168e9fc018ae52557f3e07/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/63e91f591fd42ef0a85711076c73cb66/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bd14325768f34c00643fdabb73934f9c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/fadd9b43ff6f2b5d0c835274fb6a4fef/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/3124bc0b03d55849671d35bd362a6488/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/13ef6acb17fb893243de5be1650b93a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/c2caa4ff5781006b03e30fbf67ee8705/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/b4df7429db2f6cb7bcc5adf528463000/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/30e81b85bef83fae531b463030c0ed01/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5e518a1b8ed0bfcce8856bc27c017147/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/c6aedc56b03fbc9781c63ee82e398deb/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e4cec1d16c21774826eed609e5886518/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e4cec1d16c21774826eed609e5886518/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/966f3c3b9593fda3aa63a5e59b040c79/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/966f3c3b9593fda3aa63a5e59b040c79/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:17:9-36:20
+	android:label
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:18:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:26:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:32:17-34:62
+	android:host
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:33:21-55
+	android:scheme
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml:34:21-59
+uses-sdk
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e2d3572e3c60c4669695d26bfc02699f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e2d3572e3c60c4669695d26bfc02699f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d76744f05e7f1c24a298824a7f7fd215/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d76744f05e7f1c24a298824a7f7fd215/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e4cec1d16c21774826eed609e5886518/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e4cec1d16c21774826eed609e5886518/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a63d7f5a84bcff0b96533c45e1eea5ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a63d7f5a84bcff0b96533c45e1eea5ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/6a1e7c481b43e0bc44692c05a794b33a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/6a1e7c481b43e0bc44692c05a794b33a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/04c577bb9fdd11eaa5aa9825857364ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/04c577bb9fdd11eaa5aa9825857364ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a815015252be2086c7cd9849aaaa62a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a815015252be2086c7cd9849aaaa62a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e9deb9aa3a85101d7b1eb16350da671b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e9deb9aa3a85101d7b1eb16350da671b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/7bf48a7fa72f99d5d2ed771f060be302/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/7bf48a7fa72f99d5d2ed771f060be302/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a1dcc6b28284ff4b016ecf00454895f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a1dcc6b28284ff4b016ecf00454895f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/acdd7a8d56aa67e12062abd9f217eb18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/acdd7a8d56aa67e12062abd9f217eb18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/21f7f15310574cfc0ef0832d060cdceb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/21f7f15310574cfc0ef0832d060cdceb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/8ace1a0353a79bd53c83a0df4837269c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/8ace1a0353a79bd53c83a0df4837269c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/fffd8a3b9de3af7f008b52430a3acdbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/fffd8a3b9de3af7f008b52430a3acdbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/aaeff9647ab26f967de16802a506109d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/aaeff9647ab26f967de16802a506109d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/06fa0baad0bc42546e7346bdb1589e01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/06fa0baad0bc42546e7346bdb1589e01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/2cb398cc780efac13d9eb8e758a4abbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/2cb398cc780efac13d9eb8e758a4abbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/43a5f758ac0168cd3cb1c5a4c0bca740/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/43a5f758ac0168cd3cb1c5a4c0bca740/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/966f3c3b9593fda3aa63a5e59b040c79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/966f3c3b9593fda3aa63a5e59b040c79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5a30fb42b72ac3fa2e09cc068082f4dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5a30fb42b72ac3fa2e09cc068082f4dd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/115999f549168e9fc018ae52557f3e07/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/115999f549168e9fc018ae52557f3e07/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/63e91f591fd42ef0a85711076c73cb66/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/63e91f591fd42ef0a85711076c73cb66/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bd14325768f34c00643fdabb73934f9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bd14325768f34c00643fdabb73934f9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/fadd9b43ff6f2b5d0c835274fb6a4fef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/fadd9b43ff6f2b5d0c835274fb6a4fef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/3124bc0b03d55849671d35bd362a6488/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/3124bc0b03d55849671d35bd362a6488/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/13ef6acb17fb893243de5be1650b93a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/13ef6acb17fb893243de5be1650b93a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/c2caa4ff5781006b03e30fbf67ee8705/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/c2caa4ff5781006b03e30fbf67ee8705/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/b4df7429db2f6cb7bcc5adf528463000/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/b4df7429db2f6cb7bcc5adf528463000/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/30e81b85bef83fae531b463030c0ed01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/30e81b85bef83fae531b463030c0ed01/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5e518a1b8ed0bfcce8856bc27c017147/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5e518a1b8ed0bfcce8856bc27c017147/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/c6aedc56b03fbc9781c63ee82e398deb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/c6aedc56b03fbc9781c63ee82e398deb/AndroidManifest.xml:20:5-44
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+		ADDED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/AndroidManifest.xml
