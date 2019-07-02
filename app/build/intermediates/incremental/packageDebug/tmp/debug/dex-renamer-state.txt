@@ -1,0 +1,4 @@
+#Mon Jul 01 15:50:06 PDT 2019
+base.0=/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
