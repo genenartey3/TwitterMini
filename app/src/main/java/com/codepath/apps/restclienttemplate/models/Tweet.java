@@ -21,7 +21,7 @@ public class Tweet {
         tweet.body = jsonObject.getString("text");
         tweet.uid = jsonObject.getLong("id");
         tweet.createdAt = jsonObject.getString("created_at");
-        // extracts user defined in  user class
+        // extracts user defined in user class
         tweet.user = User.fromJSON(jsonObject.getJSONObject("user"));
 
         //returns constructed tweet object
