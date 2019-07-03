@@ -1,1 +1,1 @@
-{"compiler-1.1.1.jar (android.arch.persistence.room:compiler:1.1.1)":false,"compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0)":false}
+{"parceler-1.1.12.jar (org.parceler:parceler:1.1.12)":true,"compiler-1.1.1.jar (android.arch.persistence.room:compiler:1.1.1)":false,"compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0)":false}

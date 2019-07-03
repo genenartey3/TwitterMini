@@ -4,6 +4,25 @@
             "outputFile": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
+                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/2e75b9c670fdd4ce14e92fe9f2f9a5a5/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
                     "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
