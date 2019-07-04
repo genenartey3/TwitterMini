@@ -10,7 +10,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -76,7 +75,6 @@ public class TimelineActivity extends AppCompatActivity {
         composebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "HI", Toast.LENGTH_LONG).show();
                 toCompose();
         }
         });
@@ -165,6 +163,8 @@ public class TimelineActivity extends AppCompatActivity {
         }
     }
 
+
+    // TODO - BAD CODE DESIGN! JUST RECALL populateTimeline(); instead
     private void fetchTimelineAsync(int i) {
         client.getHomeTimeline(new JsonHttpResponseHandler() {
             @Override
@@ -181,6 +181,8 @@ public class TimelineActivity extends AppCompatActivity {
                         Tweet tweet = Tweet.fromJSON(response.getJSONObject(i));
                         tweets.add(tweet);
                         tweetAdapter.notifyItemInserted(tweets.size() - 1);
+                        // refreshing icon goes away
+                        swipeContainer.setRefreshing(false);
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
