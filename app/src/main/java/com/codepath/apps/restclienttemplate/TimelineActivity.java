@@ -33,6 +33,9 @@ public class TimelineActivity extends AppCompatActivity {
     int REQUEST_CODE= 978;
     // initialize feature for swipe refresh
     SwipeRefreshLayout swipeContainer;
+    // Store a member variable for the listener
+    private EndlessRecyclerViewScrollListener scrollListener;
+    long maxId= 0;
 
 
 
@@ -52,40 +55,57 @@ public class TimelineActivity extends AppCompatActivity {
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-
-
-                fetchTimelineAsync(0);
+                tweetAdapter.clear();
+                tweets.clear();
+                populateTimeline(0);
             }
         });
+
+
+        // recycler view set up layout manager
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this );
 
         // access twitter client
         client = TwitterApplication.getRestClient(this);
 
         // find the RecyclerView
         rvTweets = findViewById(R.id.rvTweet);
+        rvTweets.setLayoutManager(linearLayoutManager);
         // init the array list (data source)
         tweets = new ArrayList<>();
         //construct the Adapter from this data source
         tweetAdapter = new TweetAdapter(tweets);
         // RecyclerView Setup (layout manager, use adapter)
-        rvTweets.setLayoutManager(new LinearLayoutManager(this));
+        rvTweets.setLayoutManager(linearLayoutManager);
         // setup adapter
         rvTweets.setAdapter(tweetAdapter);
-        FloatingActionButton composebtn = findViewById(R.id.composebtn);
-        composebtn.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton composeBtn = findViewById(R.id.composebtn);
+        composeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 toCompose();
         }
         });
 
-        populateTimeline();
+        scrollListener = new EndlessRecyclerViewScrollListener(linearLayoutManager) {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
+                // Triggered only when new data needs to be appended to the list
+                // Add whatever code is needed to append new items to the bottom of the list
+                loadNextDataFromApi(page);
+            }
+
+        };
+        // Adds the scroll listener to RecyclerView
+        rvTweets.addOnScrollListener(scrollListener);
+
+        populateTimeline(maxId);
     }
 
 
-    private void populateTimeline() {
+    private void populateTimeline(long maxId) {
          //make network request to get back data from twitter API
-        client.getHomeTimeline(new JsonHttpResponseHandler() {
+        client.getHomeTimeline(maxId, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 // logging to trace flow
@@ -152,7 +172,7 @@ public class TimelineActivity extends AppCompatActivity {
         // check request code and result code first
         if (requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
 
-            //use the data parameter
+            //use the data parameter to get tweet
             Tweet tweet = (Tweet) data.getSerializableExtra("tweet");
 
             // insert tweet into array list
@@ -163,40 +183,14 @@ public class TimelineActivity extends AppCompatActivity {
         }
     }
 
-
-    // TODO - BAD CODE DESIGN! JUST RECALL populateTimeline(); instead
-    private void fetchTimelineAsync(int i) {
-        client.getHomeTimeline(new JsonHttpResponseHandler() {
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
-                // clear out old items before repopulating
-                tweetAdapter.clear();
-                //iterate through JSON array
-                for (int i = 0; i < response.length(); i++) {
-                    // for each object deserialize JSON object
-                    // convert each object to a tweet model
-                    // add that tweet model to our data source
-                    // notify adapter that we've added an item
-                    try {
-                        Tweet tweet = Tweet.fromJSON(response.getJSONObject(i));
-                        tweets.add(tweet);
-                        tweetAdapter.notifyItemInserted(tweets.size() - 1);
-                        // refreshing icon goes away
-                        swipeContainer.setRefreshing(false);
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-
-                }
-
-            }
-
-            @Override
-            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                Log.d("DEBUG", "Fetch timeline error: " + throwable.toString());
-            }
-        });
-
-
-        }
+    public void loadNextDataFromApi(int offset) {
+        //get id of last tweet in array list
+        maxId = tweets.get(tweets.size()-1).uid;
+        populateTimeline(maxId);
+        // Send an API request to retrieve appropriate paginated data
+        //  --> Send the request including an offset value (i.e `page`) as a query parameter.
+        //  --> Deserialize and construct new model objects from the API response
+        //  --> Append the new data objects to the existing set of items inside the array of items
+        //  --> Notify the adapter of the new items made with `notifyItemRangeInserted()`
+    }
 }

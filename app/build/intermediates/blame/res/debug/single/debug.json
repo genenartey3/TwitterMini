@@ -276,6 +276,10 @@
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/menu_menu_timeline.xml.flat",
+        "source": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/res/menu/menu_timeline.xml"
+    },
+    {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/res/layout-v21/notification_action_tombstone.xml"
     },
@@ -650,6 +654,10 @@
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable_et_background.xml.flat",
+        "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/5e8644133a49ae1cf35d3cb26ef26a86/res/drawable/et_background.xml"
     },
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1754,6 +1762,10 @@
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/color_mtrl_tabs_colored_ripple_color.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/2e75b9c670fdd4ce14e92fe9f2f9a5a5/res/color/mtrl_tabs_colored_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/layout_action_view_progress.xml.flat",
+        "source": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/res/layout/action_view_progress.xml"
     },
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",

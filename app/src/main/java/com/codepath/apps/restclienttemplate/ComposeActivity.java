@@ -9,6 +9,7 @@ import android.widget.EditText;
 
 import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.loopj.android.http.JsonHttpResponseHandler;
+import com.wafflecopter.charcounttextview.CharCountTextView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -30,6 +31,8 @@ public class ComposeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compose);
         Button send = findViewById(btnSend);
+        CharCountTextView charCountTextView = findViewById(R.id.tvTextCounter);
+
 
         //access twitter client
         client = TwitterApplication.getRestClient(this);
@@ -41,6 +44,9 @@ public class ComposeActivity extends AppCompatActivity {
                 sendTweet(t);
             }
         });
+
+       // charCountTextView.setEditText();
+        //charCountTextView.
     }
 
     private void sendTweet(String t) {
