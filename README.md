@@ -45,7 +45,9 @@ The following **bonus** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
+* [x] Character counter turns red when user has <25 characters left to type!
+* [x] Floating action button used to compose tweet and switch to compose tweet activity!
 
 ## Video Walkthrough
 
