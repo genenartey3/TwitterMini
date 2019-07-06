@@ -32,6 +32,7 @@ public class ComposeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_compose);
         Button send = findViewById(btnSend);
         CharCountTextView charCountTextView = findViewById(R.id.tvTextCounter);
+        EditText tweet = (EditText) findViewById(etNewTweet);
 
 
         //access twitter client
@@ -45,8 +46,13 @@ public class ComposeActivity extends AppCompatActivity {
             }
         });
 
-       // charCountTextView.setEditText();
-        //charCountTextView.
+        charCountTextView.setEditText(tweet);
+        charCountTextView.setCharCountChangedListener(new CharCountTextView.CharCountChangedListener() {
+            @Override
+            public void onCountChanged(int i, boolean b) {
+
+            }
+        });
     }
 
     private void sendTweet(String t) {

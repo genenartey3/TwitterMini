@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_compose_dm.png.flat",
+        "source": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/res/drawable-hdpi/ic_vector_compose_dm.png"
+    },
+    {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/anim/abc_slide_out_top.xml"
     },
@@ -36,12 +40,12 @@
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/color_mtrl_chip_close_icon_tint.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/2e75b9c670fdd4ce14e92fe9f2f9a5a5/res/color/mtrl_chip_close_icon_tint.xml"
+    },
+    {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -70,6 +74,10 @@
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/65fd348ebe92df8e7deabaf82a16348f/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_retweet_stroke.png.flat",
+        "source": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/res/drawable-hdpi/ic_vector_retweet_stroke.png"
     },
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
@@ -1336,6 +1344,10 @@
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_retweet.png.flat",
+        "source": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/res/drawable-hdpi/ic_vector_retweet.png"
+    },
+    {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
@@ -1422,6 +1434,10 @@
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi_vector_compose_shortcut.png.flat",
+        "source": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/res/drawable-hdpi/vector_compose_shortcut.png"
     },
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1838,6 +1854,10 @@
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_heart_stroke.png.flat",
+        "source": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/src/main/res/drawable-hdpi/ic_vector_heart_stroke.png"
     },
     {
         "merged": "/Users/genenartey/AndroidStudioProjects/Twitter/TwitterMini/app/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat",

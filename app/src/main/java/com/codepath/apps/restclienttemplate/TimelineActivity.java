@@ -55,9 +55,11 @@ public class TimelineActivity extends AppCompatActivity {
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+                swipeContainer.setRefreshing(true);
                 tweetAdapter.clear();
                 tweets.clear();
                 populateTimeline(0);
+                swipeContainer.setRefreshing(false);
             }
         });
 

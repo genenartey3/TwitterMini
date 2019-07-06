@@ -1011,6 +1011,10 @@ drawable ic_launcher
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_vector_compose_dm
+drawable ic_vector_heart_stroke
+drawable ic_vector_retweet
+drawable ic_vector_retweet_stroke
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1028,6 +1032,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vector_compose_shortcut
 id ALT
 id CTRL
 id FUNCTION
@@ -1119,6 +1124,9 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
+id imageView2
+id imageView3
 id info
 id invisible
 id italic
@@ -1233,6 +1241,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tvBody
+id tvCreatedAt
+id tvTag
 id tvTextCounter
 id tvUsername
 id uniform
