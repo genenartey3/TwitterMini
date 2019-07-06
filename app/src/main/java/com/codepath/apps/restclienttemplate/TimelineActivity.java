@@ -59,7 +59,7 @@ public class TimelineActivity extends AppCompatActivity {
                 tweetAdapter.clear();
                 tweets.clear();
                 populateTimeline(0);
-                swipeContainer.setRefreshing(false);
+
             }
         });
 
@@ -134,6 +134,8 @@ public class TimelineActivity extends AppCompatActivity {
                     }
 
                 }
+
+                swipeContainer.setRefreshing(false);
 
             }
 

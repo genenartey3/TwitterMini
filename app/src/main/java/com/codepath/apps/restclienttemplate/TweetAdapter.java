@@ -64,7 +64,11 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         String time = getRelativeTimeAgo(tweet.createdAt);
         holder.tvCreatedAt.setText(time);
 
-        Glide.with(context).load(tweet.user.profileImageUrl).into(holder.ivProfileImage);
+
+        Glide.with(context)
+                .load(tweet.user.profileImageUrl)
+                //.transform(new CircleCrop())
+                .into(holder.ivProfileImage);
     }
 
     @Override

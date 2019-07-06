@@ -8,12 +8,14 @@ MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/genenart
 MERGED from [com.android.support:design:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/2e75b9c670fdd4ce14e92fe9f2f9a5a5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.xbroak:CharCountTextView:v1.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5e8644133a49ae1cf35d3cb26ef26a86/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/346e2c08a314a7e8dcef0167247e71f3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d6cddead26cfb97860b3ba547c80d65d/AndroidManifest.xml:2:1-12:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d76744f05e7f1c24a298824a7f7fd215/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/9a13ef7e6838ab3fd57cc230c2a569a0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/e4cec1d16c21774826eed609e5886518/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/b2f8e1e1f066b9c0a69301a9c72f4efa/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a63d7f5a84bcff0b96533c45e1eea5ac/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/096af8f1aa8d6369ce484d083985b07b/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/6a1e7c481b43e0bc44692c05a794b33a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/04c577bb9fdd11eaa5aa9825857364ea/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a815015252be2086c7cd9849aaaa62a2/AndroidManifest.xml:17:1-22:12
@@ -162,6 +164,8 @@ MERGED from [com.github.xbroak:CharCountTextView:v1.0] /Users/genenartey/.gradle
 MERGED from [com.github.xbroak:CharCountTextView:v1.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/5e8644133a49ae1cf35d3cb26ef26a86/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/bff02fdd905867eb8e873eb46b6b8c34/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/346e2c08a314a7e8dcef0167247e71f3/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/346e2c08a314a7e8dcef0167247e71f3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d6cddead26cfb97860b3ba547c80d65d/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d6cddead26cfb97860b3ba547c80d65d/AndroidManifest.xml:6:5-8:41
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/d76744f05e7f1c24a298824a7f7fd215/AndroidManifest.xml:20:5-44
@@ -174,6 +178,8 @@ MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/genenartey/.grad
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/b2f8e1e1f066b9c0a69301a9c72f4efa/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a63d7f5a84bcff0b96533c45e1eea5ac/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/a63d7f5a84bcff0b96533c45e1eea5ac/AndroidManifest.xml:20:5-44
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/096af8f1aa8d6369ce484d083985b07b/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/096af8f1aa8d6369ce484d083985b07b/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/6a1e7c481b43e0bc44692c05a794b33a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/6a1e7c481b43e0bc44692c05a794b33a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/genenartey/.gradle/caches/transforms-2/files-2.1/04c577bb9fdd11eaa5aa9825857364ea/AndroidManifest.xml:20:5-44
